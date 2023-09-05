@@ -1,8 +1,8 @@
-module github.com/hashicorp/vault-client-go
+module github.com/vvertixx/vault-client-go
 
 go 1.18
 
-replace golang.org/x/sys => golang.org/x/sys v0.1.0
+replace github.com/hashicorp/vault-client-go => ./
 
 require (
 	github.com/hashicorp/go-cleanhttp v0.5.2
@@ -10,8 +10,9 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.1
 	github.com/hashicorp/go-rootcerts v1.0.2
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2
+	github.com/hashicorp/vault-client-go v0.3.0
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/exp v0.0.0-20220921164117-439092de6870
-	golang.org/x/sys v0.1.0
+	golang.org/x/sys v0.4.0
 	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
 )
