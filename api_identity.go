@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/hashicorp/vault-client-go/schema"
+	"github.com/vvertixx/vault-client-go/schema"
 )
 
 // Identity is a simple wrapper around the client for Identity requests

@@ -38,7 +38,7 @@ A simple [HashiCorp Vault][vault] Go client library.
 ## Installation
 
 ```sh
-go get -u github.com/hashicorp/vault-client-go
+go get -u github.com/vvertixx/vault-client-go
 ```
 
 ## Examples
@@ -61,8 +61,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/hashicorp/vault-client-go"
-	"github.com/hashicorp/vault-client-go/schema"
+	"github.com/vvertixx/vault-client-go"
+	"github.com/vvertixx/vault-client-go/schema"
 )
 
 func main() {
@@ -529,8 +529,8 @@ The following features are coming soon:
 [doc-azure]:             https://developer.hashicorp.com/vault/docs/auth/azure
 [doc-response-wrapping]: https://developer.hashicorp.com/vault/docs/concepts/response-wrapping
 [doc-plugins]:           https://developer.hashicorp.com/vault/docs/plugins
-[ci-build-badge]:        https://github.com/hashicorp/vault-client-go/actions/workflows/main.yml/badge.svg?brach=main
-[ci-build]:              https://github.com/hashicorp/vault-client-go/actions/workflows/main.yml?query=branch%3Amain
-[go-reference-badge]:    https://pkg.go.dev/badge/github.com/hashicorp/vault-client-go
-[go-reference]:          https://pkg.go.dev/github.com/hashicorp/vault-client-go
+[ci-build-badge]:        https://github.com/vvertixx/vault-client-go/actions/workflows/main.yml/badge.svg?brach=main
+[ci-build]:              https://github.com/vvertixx/vault-client-go/actions/workflows/main.yml?query=branch%3Amain
+[go-reference-badge]:    https://pkg.go.dev/badge/github.com/vvertixx/vault-client-go
+[go-reference]:          https://pkg.go.dev/github.com/vvertixx/vault-client-go
 <!-- prettier-ignore-end -->
